@@ -1,0 +1,190 @@
+/*!
+ * Start Bootstrap - Shop Item (http://startbootstrap.com/template-overviews/shop-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+.white{
+    background-color: white;
+}
+.spacer20{
+	margin-top: 20px;
+}
+.spacer40{
+	margin-top: 40px;
+}
+.spacer60{
+	margin-top: 60px;
+}
+.centrer{
+    text-align: center;
+}
+.right{
+	text-align: right;
+}
+.large{
+	width: 100%;
+}
+.droite{
+    align-content: flex-end;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Segoe', 'Helvetica Neue', 'Arial' sans-serif !important;
+}
+h3{
+   font-size: 20px; 
+}
+.s15px{
+   font-size: 15px; 
+}
+p{
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    margin: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+.circle{
+    border-radius: 50%;
+}
+.red{
+	color: red;
+}
+.black{
+	color: black;
+}
+.dark{
+	color: darkgray;
+}
+.orange{
+    color: orange;
+}
+.yellow{
+    color: yellow;
+}
+/*deuxieme header*/
+.footer{
+    background: url("../img/footer.jpg") no-repeat;
+    height: 200px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+}
+.hero{
+    padding-top: 30px;
+    padding-bottom: 2px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/Ciel_bleu.jpg") no-repeat !important;
+    background-size: cover;
+}
+
+img{
+display: block;
+margin: auto;
+}
+.heading{
+    font-family: alpha slab one, sans serif;
+    font-size: 4.4em;
+    color: white;
+    padding-top: 0;
+    opacity: 0.9;
+}
+.heading-2{
+    font-family: alpha slab one, sans serif;
+    font-size: 2.5em;
+    padding-bottom: 5px;
+    color: white;
+    text-shadow: 6px 2px 3px black;
+}
+transparent{
+    opacity: 0.5;
+}
+.rejoindre{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.middle{
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.update{
+    background: #222;
+}
+
+.update p{
+    text-align: center;
+    font-size: 16px;
+}
+.espace{
+    margin: 5px;
+}
+.espace a{
+    color: #fff;
+}
+.annonce{
+    color: #000;
+    text-align: center;
+    background: #fff;
+}
+.annonce p{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 3px;
+    color: lightseagreen;
+}
+.show-on-hover:hover > ul.dropdown-menu{
+        display: block;
+    }
+
+#galerie{
+    position: relative;
+}
+
+#galerie panel{
+    position: static;
+    display: none;
+}
+
+#galerie .activ{
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+
+.heading{
+    font-size: 3.8em;
+}
+
+
+}
+@media screen and (max-width: 700px) {
+    .heading{
+    text-shadow: 2px 2px 3px black;
+        font-size: 3em;
+        padding-top: 50px;
+    }
+    .heading-2{
+    text-shadow: 2px 2px 3px black;
+        font-size: 2em;
+    }
+    
+}
+
