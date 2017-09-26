@@ -6,7 +6,7 @@ Edition
 <div class="col-md-12">
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<h2 class="panel-title">Edition de {{$etudiant->prenom}} {{$etudiant->nom}} (Etape 4 sur 4)</h2>
+			<h2 class="panel-title">Edition de {{$etudiant->prenom}} {{$etudiant->nom}} (Etape 2 sur 2)</h2>
 		</div>
 		<div class="panel-body">
 			{{$etudiant->id}}

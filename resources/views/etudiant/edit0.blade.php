@@ -7,7 +7,7 @@ Création
 	<div class="panel panel-primary">
 		<div class="panel-heading">
 			@if($etudiant->id == 0)
-			<h2 class="panel-title">Inscription (Etape 1 sur 4)</h2>
+			<h2 class="panel-title">Inscription (Etape 1 sur 2)</h2>
 			@else
 			<h2 class="panel-title">Edition de {{$etudiant->prenom}} {{$etudiant->nom}} (Etape 1 sur 4)</h2>
 			@endif
