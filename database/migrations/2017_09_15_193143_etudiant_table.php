@@ -34,7 +34,7 @@ class EtudiantTable extends Migration
                 'matricule'=> '00'.$i, 
                 'prenom' => "Ousmane",
                 'nom' => "Diop",
-                'date_naissance' => '2001-11-01';
+                'date_naissance' => '2001-11-0'.$i,
                 'lieu_naissance' => "Dakar",
                 'sexe' => "Masculin",
                 'nationalite' => "Sénégalaise",

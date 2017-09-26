@@ -20,9 +20,9 @@ class UserTable extends Migration
         for($i = 1; $i < 5; ++$i)
         {
             DB::table('users')->insert([
-                'name' => 'allafi' . $i,
-                'email' => 'allafi' . $i . '@ecole.sn',
-                'password' => bcrypt('password' . $i),
+                'name' => 'user' . $i,
+                'email' => 'user' . $i . '@ecole.sn',
+                'password' => bcrypt('password'),
                 'admin' => rand(0, 1)
             ]);
         }

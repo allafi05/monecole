@@ -20,8 +20,12 @@ Edition
 						]) 
 					}}
 				<div class="row form-group">
-						{{ Form::label('featured_image', 'Selectionner une image') }}
-						{{ Form::file('featured_image') }}
+						<div class="content">
+							<h3>{{ Form::label('featured_image', 'Selectionner une image', ['class' => 'centrer']) }}</h3>
+						</div>
+						<div class="content">
+							{{ Form::file('featured_image', ['class' => 'centrer']) }}
+						</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-md-4">	
